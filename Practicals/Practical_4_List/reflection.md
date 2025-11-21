@@ -1,0 +1,2 @@
+what i did?
+Using VSCODE, I created a structured HTML document that displays a list of upcoming college events. I used an ordered list to organize the events in sequence and included nested unordered lists to present details such as the time and location of each event. The page begins with a main heading titled “College Events,” making it easy to understand the purpose of the page. Each event is highlighted using bold text for better readability, and the overall structure ensures that visitors can quickly find important information about each scheduled activity.
