@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <h2>Hostel Room Maintenance Request Form </h2>
+    </head>
+
+    <body>
+        <form action = "/submit-form" method="post">
+            <h3>Room Resident Details</h3>
+            <label for = "fullname"><b>Fullname</b>:</label>
+            <input type="text" id="fullname" name="Fullname" placeholder="Enter your full name" required minlength="2"
+            maxlength="50" pattern="[A-Za-z\s]+"><br><br>
+
+            <label for="student_id">Student_id:</label>
+            <input type="text" id="student_id" name="student_id" placeholder="Enter your student ID" required minlength="8"
+            maxlength="8"> <br></br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br></br>
+
+            <label for ="tel">Phone Number</label>
+            <input type="tel" id="tel" name="tel" placeholder="Enter your phone number" required pattern="[0-9]{10}">
+            <br></br>
+
+            <h3>Room Information</h3>
+            <label for="block">Block:</label>
+            <select id="block" name="block" required>
+                <option value="">Select Block</option>
+                <option value="A">Block RKA</option>
+                <option value="B">Block RKB</option>
+                <option value="C">Block NK</option>
+                <option value="D">Block HC</option>
+                <option value="E">Block Lhawang</option>
+            </select><br></br>
+
+        <label for="room number">Room Number:</label>
+        <input type="text" name="Room number" id="room number" placeholder="Enter your room number" required pattern="[0-9]" minlength="3"
+        maxlength="3"><br></br>
+
+        <h3>Floor Information</h3>
+        <label for="floor">Floor Number:</label>
+        <input type="number" id="floor" name="floor"  required min="1" max="9" placeholder="Floor number"><br></br>
+
+        <h3>Issue Information</h3>
+        <label for="issue">Issue Type:</label>
+        <select id="issue" name="issue" required>
+            <option value="">Select Issue Type</option>
+            <option value="plumbing">Plumbing</option>
+            <option value="electrical">Electrical</option>
+            <option value="furniture">Furniture</option>
+            <option value="cleaning">Cleaning</option>
+            <option value="other">Other</option>
+        </select><br></br>
+
+
+
+
+
+
+
+             
+        
+
+
+    </body>
+
+</html>
